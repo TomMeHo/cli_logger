@@ -1,4 +1,4 @@
-src/Scripts/
+/src/Scripts/
 src/test_manuell/
 src/pyvenv.cfg
 **/__pycache__/
