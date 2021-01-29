@@ -22,5 +22,11 @@ setup(
             'colorama',
             'datetime'
       ],
+      classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+        "Topic :: System :: Logging"
+      ],
       python_requires='>=3.6'
 )
