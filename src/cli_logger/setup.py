@@ -14,7 +14,7 @@ setup(
       url='https://github.com/TomMeHo/cli_logger',
       author='Thomas Meder',
       author_email='tom@tommho.net',
-      license='MIT',
+      license='BSD',
       packages=[NAME],
       zip_safe=False,
       install_requires=[
