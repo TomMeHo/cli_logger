@@ -1,12 +1,10 @@
-from setuptools import setup
-
-NAME = 'cli_logger'
+import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-setup(
-      name=NAME,
+setuptools.setup(
+      name='cli_logger',
       version='1.0',
       description='A module to pretty-print outputs for command-line programs.',
       long_description=long_description,
@@ -15,7 +13,7 @@ setup(
       author='Thomas Meder',
       author_email='tom@tommho.net',
       license='BSD',
-      packages=[NAME],
+      packages=setuptools.find_packages(),
       zip_safe=False,
       install_requires=[
             'click',
