@@ -42,3 +42,6 @@ Rules to create a return code (last verified rule wins):
 | Only messages of type ```DEBUG``` or ```INFORMATION``` have been issued. | ```0``` |
 | At least one ```WARNING``` has been issued. | ```1``` |
 | At least one ```ERROR``` has been issued. | ```2``` |
+
+# Installation
+The code has been published on [PyPi](https://pypi.org/project/cli-logger/). To install, just use the command ```pip --install cli-logger```.
