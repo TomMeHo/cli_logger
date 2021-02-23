@@ -79,6 +79,9 @@ def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, 
 
 def returnCode() -> int:
     
+    global executionWithWarning
+    global executionWithError
+    
     rc = 0
 
     if executionWithWarning: rc = 1
