@@ -1,3 +1,4 @@
+import sys
 from time import sleep
 from cli_logger import MessageClass, log, information, set_minimum_severity_level, error, debug, warning, returnCode, printProgressBar
 
@@ -22,3 +23,8 @@ sleep(1)
 printProgressBar(3, 4, 'Process running [name]', 'suffix')
 sleep(1)
 printProgressBar(4, 4, 'Process running [name]', 'suffix')
+
+information('Another information with low severity level.') # information messages are usual output.
+print('Returncode is still: %s' % returnCode())
+
+sys.exit(returnCode())

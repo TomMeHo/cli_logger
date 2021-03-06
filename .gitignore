@@ -5,3 +5,4 @@ src/pyvenv.cfg
 **/Include/
 **/Lib/
 **/cli_logger.egg-info/
+test_manuell/Thumbs.db
