@@ -1,12 +1,12 @@
 import click
 from colorama import Fore, Back, Style
 from datetime import datetime
-#from enum import IntEnum
+from enum import IntEnum
 
 executionWithError = False
 executionWithWarning = False
 
-class MessageClass():
+class MessageClass(IntEnum):
     DEBUG = 0
     INFORMATION = 1
     WARNING = 2

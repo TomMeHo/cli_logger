@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
       name='cli_logger',
-      version='1.0',
+      version='1.1.0',
       description='A module to pretty-print outputs for command-line programs.',
       long_description=long_description,
       long_description_content_type="text/markdown",
